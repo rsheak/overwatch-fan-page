@@ -1,0 +1,58 @@
+.contact-hero {
+    background-image: url('contact-background.jpg'); /* Replace with an actual image */
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.contact-form {
+    padding: 50px 20px;
+    background-color: #333;
+    color: #ffffff;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form h2 {
+    color: #f99d1c;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #f99d1c;
+    background-color: #222;
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #f99d1c;
+    color: #0a0a0a;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+    display: block;
+    width: 100%;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #ffbb33;
+}
