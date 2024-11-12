@@ -1,12 +1,3 @@
-.contact-hero {
-    background-image: url('contact-background.jpg'); /* Replace with an actual image */
-    background-size: cover;
-    background-position: center;
-    color: #ffffff;
-    text-align: center;
-    padding: 80px 20px;
-}
-
 .contact-form {
     padding: 50px 20px;
     background-color: #333;
